@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#(i)
+awk '$2<25 {print $1}' students.txt
+
+#(ii)
+awk '$3 == "Physics" {print $1}' students.txt
+
+#(iii)
+awk 'BEGIN {OFS=","} {print $1,$2,$3}' students.txt
+

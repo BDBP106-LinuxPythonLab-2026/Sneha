@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#(i)
+awk '!/^>/' FASTA.txt
+
+#(ii)
+sed '/^>/!s/T/U/g' FASTA.txt
+
+#(iii)
+sed 's/>seq1/>human_gene/' FASTA.txt
+
+

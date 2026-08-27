@@ -1,0 +1,3 @@
+#!/bin/bash
+
+awk '$1=="ATOM" && $4=="ALA" {print}' 1HK0.pdb > PHE_atoms.xyz
