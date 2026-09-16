@@ -1,0 +1,2 @@
+cat .bashrc | grep ’PS1’
+cat .bashrc displays the files in .bashrc file and then using pipe we are giving the output of that command to grep 'PS1' and then grep searches for all the lines containing 'PS1' and shows all those lines as output
