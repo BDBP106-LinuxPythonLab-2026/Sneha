@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "name alice ryan"
+read line1
+echo "age 21 30"
+read line2
+
+echo $line1
+echo $line2
+
+
+
+
