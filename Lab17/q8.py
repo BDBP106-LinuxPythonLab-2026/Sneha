@@ -1,0 +1,5 @@
+S = input("Enter a sentence: ")
+W = input("Enter the word: ")
+words = S.split()
+count = words.count(W)
+print("Occurrences:", count)
