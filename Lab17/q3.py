@@ -1,11 +1,10 @@
-N=int(input("Enter a positive integer: "))
-isPrime = True
-i=2
-while i <= N:
-    if N % i == 0:
-        isPrime = False
-        break
-if isPrime:
-    print("Prime")
+N = int(input("Enter a positive integer: "))
+if N > 1:
+    for i in range(2, N):
+        if N % i == 0:
+            print("Not prime")
+            break # stops the for loop as soon as Python finds a number that divides N evenly.
+    else:
+        print("Prime num") # prints "Prime number" if the loop finishes without encountering break.
 else:
-    print("Not prime")
+    print("Not Prime") # executes when N > 1 is False, meaning the number is less than or equal to 1.
