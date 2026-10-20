@@ -1,3 +1,3 @@
-digits = int(input("Enter a positive number : "))
+digits = int(input("Enter positive numbers : "))
 for digit in str(digits):
     print(digit)
