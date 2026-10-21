@@ -47,7 +47,7 @@ print()
 #c Join the first name and surname in each element as ’First.Last’. 
 # Note that the first letter of the first name and first letter of the surname should be upper case.
 
-first_last = [".".join(part.title() for part in name.split()) for name in people]
+first_last = [".".join(word.title() for word in name.split()) for name in people]
 print(first_last)
 print()
 
@@ -55,14 +55,16 @@ print()
 # ”She sells sea shells that she collects from the sea floor”.
 
 sentence = "She sells sea shells that she collects from the sea floor"
-words = sentence.split()
-longest = max([word for word in words], key=len)
-print(longest)
+longest_word=max([i for i in sentence.split()],key=len) # max(words, key=len) -->
+                                                        # Python effectively compares the lengths:
+                                                        # It identifies the word with the greatest length and returns that word.
+print(longest_word)
+
 print()
 
 #iv Create a list of the words that are repeated in the above sentence.
 
 sentence = "She sells sea shells that she collects from the sea floor"
 words = sentence.lower().split()
-repeated = [word for word in set(words) if words.count(word) > 1]
+repeated = [i for i in set(words) if words.count(i) > 1]
 print(repeated)
