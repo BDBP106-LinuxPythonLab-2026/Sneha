@@ -1,3 +1,5 @@
+# Write a script to check if a given number, N, is prime or not
+
 N = int(input("Enter a positive integer: "))
 if N > 1:
     for i in range(2, N):
