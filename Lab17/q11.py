@@ -1,6 +1,9 @@
+# Write a program to print the duplicate elements in a list, L.
+
 L = [1, 2, 3, 2, 4, 5, 3, 6]
 duplicates = []
-for item in L:
-    if L.count(item) > 1 and item not in duplicates: #does this item appears more that once and "item not in duplicates" checks has this item not already been added to the duplicates list?
-        duplicates.append(item) #add the item to the end of the list
+for i in L:
+    if L.count(i) > 1 and i not in duplicates: # L.count() --> checks if element appears more that once
+                    # i not in duplicates --> checks has this item not already been added to the duplicates list? if not then adds it to the list
+        duplicates.append(i) #add the item to the end of the list
 print(duplicates)
