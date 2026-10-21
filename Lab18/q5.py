@@ -1,9 +1,9 @@
 #Remove all duplicate words from a given sentence using a dictionary.
 
 #asking input from the user
-sentence=input("enter a sentence: ")
-words=sentence.split()
-unique=set(words)
+a=input("enter a sentence: ")
+words1=a.split()
+unique=set(words1)
 without_duplicates=" ".join(unique)
 print(without_duplicates)
 
