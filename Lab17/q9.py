@@ -2,7 +2,7 @@
 
 S1 = input("Enter first word: ")
 S2 = input("Enter second word: ")
-if sorted(S1) == sorted(S2):
+if sorted(S1) == sorted(S2):  #sorted() --> sorts them in ascending order according to their character values.
     print("Anagrams")
 else:
     print("Not anagrams")
