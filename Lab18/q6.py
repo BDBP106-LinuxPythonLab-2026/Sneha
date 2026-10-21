@@ -17,8 +17,8 @@ def triangle_area(a, b, c):
     area = math.sqrt(s * (s-a) * (s-b) * (s-c))
     return area
 # Test case
-a = 3
-b = 4
-c = 5
+a = int(input("Enter side: "))
+b = int(input("Enter side: "))
+c = int(input("Enter side: "))
 area = triangle_area(a, b, c)
-print("Area of triangle =", area)
+print("Area of triangle = ", area)
