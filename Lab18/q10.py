@@ -1,3 +1,8 @@
+"""Write a function called nextPrime that finds and returns the first prime number larger
+than some integer, n. The value of n will be passed to the function as its only parameter.
+The main program should read an integer from the user and display the first prime
+number larger than the entered value."""
+
 def is_prime(number):
     if number < 2:
         return False
