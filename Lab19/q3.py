@@ -24,12 +24,11 @@ print()
    2 4
    3 9"""
 
-squares = [x**2 for x in a]
 square_data = "\n".join([f"{x} {x**2}" for x in a])
 print(square_data)
 print()
 
-#iiMake a list of 10 people you know, and do the following:
+#ii Make a list of 10 people you know, and do the following:
 
 people = ["John Smith", "Alice Brown", "David Wilson", "Mary Jones", "Robert Taylor", "Emma Davis", "James Miller", "Sophia Anderson", "Daniel Thomas", "Olivia Moore"]
 
