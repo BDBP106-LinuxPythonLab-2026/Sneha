@@ -1,3 +1,7 @@
+"""Write a decorator measure_time to calculate how long a function takes to run. Use it
+on a function that calculates the factorial of a number. Use a test case of calculating the
+factorial of 50."""
+
 import time
 import math
 
