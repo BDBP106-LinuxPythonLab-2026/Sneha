@@ -1,3 +1,7 @@
+"""Write a function analyse_dna(sequence) that defines an inner function gc_content()
+to calculate GC% . The outer function should print whether the given DNA is AT rich
+or GC rich sequence. (copy this code from Lab 21 to Lab 22 folder)"""
+
 def analyse_dna(sequence):
     def gc_content():
         g_count=sequence.upper().count('G')
