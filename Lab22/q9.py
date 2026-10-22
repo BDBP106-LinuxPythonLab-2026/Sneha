@@ -1,3 +1,6 @@
+"""Write a decorator log_function_call that prints Running DNA analysis.... before
+and Analysis complete! after any function. Apply"""
+
 def log_function_call(func):
     def wrapper(*args, **kwargs):
         print("Running DNA analysis....")
