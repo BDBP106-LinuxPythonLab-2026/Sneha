@@ -1,3 +1,6 @@
+"""Use the decorator measure_time to calculate how long the above function calculating
+population growth that loops 1 million iterations."""
+
 import time
 import math
 
