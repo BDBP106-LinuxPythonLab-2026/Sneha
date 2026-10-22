@@ -7,7 +7,8 @@ H=float(input("Enter enthalpy charge: "))
 S=float(input("Enter entropy charge: "))
 def protein_energy(temperature):
       def calculate_free_energy(enthalpy, entropy):
-          return enthalpy - temperature*entropy
+          stability = enthalpy - temperature * entropy
+          return stability
       G = calculate_free_energy(H, S)
       print("Free energy change(delta G):", round(G,2))
       if G < 0:
