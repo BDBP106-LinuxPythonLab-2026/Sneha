@@ -2,7 +2,7 @@
 to calculate GC% . The outer function should print whether the given DNA is AT rich
 or GC rich sequence."""
 
-dna = input("Enter a DNA sequence: ").upper()
+sequence = input("Enter a DNA sequence: ").upper()
 def analyse_dna(sequence):
     def gc_content():
         sequence_length = len(sequence)
@@ -19,7 +19,7 @@ def analyse_dna(sequence):
         print("AT-rich sequence")
     else:
         print("Equal AT and GC content")
-analyse_dna(dna)
+analyse_dna(sequence)
 
 #analyse_dna() is the outer function.
 #gc_content() is the inner function that calculates the GC percentage.
